@@ -1,6 +1,6 @@
 # 第三方来源与许可
 
-本仓库的原创部分（`SKILL.md`、`scripts/`、`assets/starter/`、各文档的编排与中文改写）以 MIT 发布，见 [LICENSE](LICENSE)。
+本仓库的原创部分（`SKILL.md`、`scripts/`、`assets/starter/`、各文档的编排与中文改写）采用「个人演示许可 v1.0」，见 [LICENSE](LICENSE)。
 以下内容来自第三方，按各自的许可保留。
 
 ## 1. Lemo-Opuscar（设计层 + 参考 demo）

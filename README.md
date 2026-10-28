@@ -4,7 +4,7 @@
 
 设计层照 [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) 的 59 种风格硬规范执行；管线层是纯 `f(t)` 的逐帧渲染（headless Chrome + ffmpeg）；审核层是反 PPT 门禁 G1–G9；声音层做帧号 → 样本号的 0 误差对位。
 
-**版本**：v0.3.0 · **许可**：MIT（设计层与参考 demo 来自上游，见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)）
+**版本**：v0.3.0 · **许可**：个人演示许可 v1.0（非开源：可自用、可发布成片；**不可转发、不可商用**，见 [LICENSE](LICENSE)）。上游素材（59 张风格卡、demo 源码）仍为 MIT，见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)
 
 ---
 
@@ -138,10 +138,16 @@ node render.mjs --encode --audio=audio/mix.wav    # → out/mv.mp4
 
 ## 10. 许可与署名
 
-- **本仓库代码与文档**：MIT，见 [LICENSE](LICENSE)。
-- **设计层**（`references/styles/*.md`、`lemo-director.md` 的规范部分）：来自 [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)（MIT）。
-- **`vendor/lemo-demos/`**：同上，上游 MIT，逐文件保留原有 OFL 等字体许可文件。
+**本仓库不是开源项目。** 原创部分采用「个人演示许可 v1.0」，全文见 [LICENSE](LICENSE)：
+
+| 可以做 | 不可以做 |
+|---|---|
+| 下载、安装、自己跑 | 把技能包（或改了名的版本）转发、上传、打包给别人 |
+| 为个人学习/演示修改本地副本 | 客户项目、接单、公司内部使用、付费产品或服务 |
+| 用它做片子并**公开发布成片** | 移除或隐藏版权与许可声明 |
+
+- **第三方材料不受此限制**：`references/styles/*.md` 的 STYLE.md 原文、`lemo-director.md` 所依据的规范、`vendor/lemo-demos/` 均来自 [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)（MIT），按其原许可使用与再分发，逐文件保留原有 OFL 等字体许可。
 - **字体**：风格卡推荐的字体会在成片项目的 `CREDITS` 里列出；商用前自行核对许可。
 - **声音模型**（若你自建 studio）：Qwen3-TTS（Apache-2.0）、ACE-Step（MIT）、Stable Audio 3（Stability AI Community License，发布需标注并注册）、MMAudio（CC-BY-NC，仅非商业）。详见 [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)。
 
-原作者不要求在成片中署名；第三方资产按各自许可写进项目 `CREDITS`。
+用本软件创作的成片不受本许可限制；成片里的第三方资产按各自许可写进项目 `CREDITS`。

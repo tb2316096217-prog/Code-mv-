@@ -1,21 +1,86 @@
-MIT License
+code-mv 个人演示许可 v1.0
+code-mv Personal Demonstration License v1.0
 
-Copyright (c) 2026 tb2316096217-prog
+Copyright (c) 2026 tb2316096217-prog. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+本许可不是开源许可（not an open-source license）。中文为正式文本，英文仅为便于阅读的对照。
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+────────────────────────────────────────
+1. 定义
+────────────────────────────────────────
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+"本软件"指本仓库中由版权持有者创作的部分：SKILL.md、scripts/、assets/starter/、
+README.md、THIRD-PARTY-NOTICES.md 以及各文档的编排与中文改写。
+
+"第三方材料"指本仓库中来自 Lemo-Opuscar 的内容：references/styles/*.md 中的
+STYLE.md 原文、lemo-director.md 所依据的规范文本、vendor/lemo-demos/ 下的全部
+demo 源码与素材。这些材料仍按其原有许可（MIT，见 THIRD-PARTY-NOTICES.md）授权，
+不受本许可约束。
+
+────────────────────────────────────────
+2. 授予的权利（仅限个人、非商业）
+────────────────────────────────────────
+
+在遵守本许可全部条款的前提下，你可以：
+
+(a) 下载、安装、复制本软件到你个人控制的设备；
+(b) 运行本软件，并为个人学习、研究、演示之目的修改本软件（修改版同样受本许可约束）；
+(c) 使用本软件创作作品（包括视频、MV、短片），并**公开发布这些作品**——
+    成片及其发布不受本许可的任何限制。
+
+────────────────────────────────────────
+3. 禁止
+────────────────────────────────────────
+
+(a) **再分发**：不得以任何形式向第三方提供本软件或其任何修改版、衍生版。包括但不限于：
+    上传至其他代码托管、网盘、技能市场、论坛或社群；打包分发；作为模板、课程、
+    教程、付费内容的一部分分享；整体或部分嵌入你发布的软件包。
+
+(b) **商业用途**：不得将本软件用于任何商业目的。包括但不限于：为客户制作、接单交付、
+    公司或组织内部使用、销售本软件或其修改版、将其作为付费产品或付费服务的一部分提供。
+
+(c) 不得移除、修改或隐藏本许可与版权声明。
+
+────────────────────────────────────────
+4. 第三方材料
+────────────────────────────────────────
+
+本仓库中的第三方材料（见 THIRD-PARTY-NOTICES.md）按其原有许可使用和再分发，
+本许可不对其施加额外限制。你从本仓库获取第三方材料时，就这些材料而言你获得的是
+其原许可（MIT）赋予的权利。
+
+────────────────────────────────────────
+5. 终止
+────────────────────────────────────────
+
+你违反本许可任一条款，本许可授予你的全部权利立即自动终止。终止后你必须停止使用
+并销毁你持有的全部副本（第三方材料除外）。
+
+────────────────────────────────────────
+6. 无担保
+────────────────────────────────────────
+
+本软件按"现状"提供，不附带任何明示或默示的担保，包括但不限于适销性、特定用途
+适用性和不侵权担保。在任何情况下，版权持有者均不对因本软件或本许可引起的任何
+索赔、损害或其他责任负责。
+
+────────────────────────────────────────
+English summary (for reference only; the Chinese text above governs)
+────────────────────────────────────────
+
+You may download, install and run this software for personal, non-commercial
+study, research and demonstration, and you may modify it for your own use.
+You may publish any videos or other works you create with it — outputs are
+not restricted by this license.
+
+You may NOT redistribute the software or any modified version in any form
+(including uploading it to other repositories, file hosts, skill marketplaces,
+packaging it, or embedding it in other products), and you may NOT use it for
+any commercial purpose (client work, paid products or services, or internal
+use by a company or organization).
+
+Third-party materials from Lemo-Opuscar remain under their original MIT
+license (see THIRD-PARTY-NOTICES.md) and are not restricted by this license.
+
+Violation terminates your rights automatically. THE SOFTWARE IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND.

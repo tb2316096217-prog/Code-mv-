@@ -164,7 +164,8 @@ node render.mjs --encode --audio=audio/mix.wav --out=out/mv.mp4
 
 ## 许可与署名
 
-- 设计层（STYLE.md/DIRECTOR.md/AGENTS.md）来自 [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)（MIT）；卡片里保留来源与库版本。
+- **本技能（原创部分）采用「个人演示许可 v1.0」**：可自用、可发布用它做的成片；**不可转发/再发布技能包，不可商用**。全文见 `LICENSE`。
+- 设计层（STYLE.md/DIRECTOR.md/AGENTS.md）来自 [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar)（MIT），不受上述限制；卡片里保留来源与库版本。
 - 成片**不加 LemoLab 署名**（DIRECTOR §11）；交付前列 `CREDITS` 第三方资产与许可。
 - 声音模型许可见 `studio\LICENSE-NOTES.md`（MMAudio CC-BY-NC 等）。
 
