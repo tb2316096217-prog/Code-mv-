@@ -1,0 +1,23 @@
+# 依赖与缓存
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 渲染与音频产物（技能本身不含项目）
+/out/
+/audio/
+/dist/
+/.smoke/
+/tmp_pack*/
+/.lemo-clone/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# 打包残留
+*.zip
